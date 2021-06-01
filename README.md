@@ -11,7 +11,8 @@ package.
 
 To run the demo client, you need to set the `LD_LIBRARY_PATH`.
 
+```
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
 $ ./mw send <filename>
 $ ./mw recv
-
+```
