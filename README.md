@@ -9,3 +9,9 @@ The supplied Go code borrows code from [wormhole-william's
 cmd](https://github.com/psanford/wormhole-william/tree/master/cmd)
 package.
 
+To run the demo client, you need to set the `LD_LIBRARY_PATH`.
+
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
+$ ./mw send <filename>
+$ ./mw recv
+
